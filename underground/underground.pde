@@ -1,11 +1,13 @@
+noStroke();
 size(500,500);
-fill(255,0,0);
+fill(255,37,31);
 circle(250, 250, 250);
 fill(255,255,255);
 circle(250,250, 160);
-fill(0,0,255);
-rect(75, 225, 350, 50);
+fill(0,15,159);
+rect(90, 220, 320, 60);
 fill(255,255,255);
-textSize(45);
 textAlign(CENTER, CENTER);
+PFont Johnston = createFont("Johnston.ttf", 45);
+textFont(Johnston);
 text("ANGEL",250, 250);
