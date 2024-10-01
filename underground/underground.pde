@@ -1,7 +1,11 @@
 size(500,500);
-stroke(255,0,0);
+fill(255,0,0);
 circle(250, 250, 250);
-stroke(255,255,255);
-circle(250,250, 80);
-stroke(0,0,255);
-rect(50, 200, 400, 100);
+fill(255,255,255);
+circle(250,250, 160);
+fill(0,0,255);
+rect(75, 225, 350, 50);
+fill(255,255,255);
+textSize(45);
+textAlign(CENTER, CENTER);
+text("ANGEL",250, 250);
